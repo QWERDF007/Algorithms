@@ -98,7 +98,7 @@ $$
 $$
 M = \left (\sum_i \hat{p}_i^T w_i \hat{p}_i \right )^{-1} \sum_j w_j \hat{p}_j^T \hat{q}_j
 $$
-虽然这个解需要矩阵转置，但矩阵是常量大小  (2x2) ，转置很快。通过 $M$ 的封闭形式解，可以为变形函数 $f_a(v)$ 的写出一个简单的表达式。
+虽然这个解需要求解矩阵的逆，但矩阵是常量大小  (2x2) ，求解很快。通过 $M$ 的封闭形式解，可以为变形函数 $f_a(v)$ 的写出一个简单的表达式。
 $$
 f_a(v) = (v - p_*) \left (\sum_i \hat{p}_i^T w_i \hat{p}_i \right )^{-1} \sum_j w_j \hat{p}_j^T \hat{q}_j + q_* \tag{5}
 $$
